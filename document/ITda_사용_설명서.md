@@ -1,4 +1,4 @@
-# ITda 사용 설명서
+# ITda_사용_설명서
 
 ## 0. 기본 세팅
 
@@ -51,7 +51,7 @@ LAN cable을 라즈베리파이에 연결한다.
 
 실행시 아래와 같은 화면이 디스플레이(TV에 출력된다.)
 
-![image-20210625223149227](ITda 사용 설명서.assets/image-20210625223149227.png)
+![image-20210625223149227](ITda_사용_설명서.assets/image-20210625223149227.png)
 
 비밀번호가 단순해서 뜨는 경고문인데, 무시해도 괜찮다.
 
@@ -67,25 +67,25 @@ https://console.cloud.google.com/에 접속한다.
 
 
 
-![img](ITda 사용 설명서.assets/bXzVpoISu8Fy7SyXg_uZvztcXPvDqE7x_Bg2jsyb3PlUXtHoTN0y7aK3vOYn_HJHPOBT_KejgVQK0Axwi43CQH_mUTYAdV6Mf9BO989DJDHW392cVirLVmXQ_tRv2gpHV42q2n34)
+![img](ITda_사용_설명서.assets/bXzVpoISu8Fy7SyXg_uZvztcXPvDqE7x_Bg2jsyb3PlUXtHoTN0y7aK3vOYn_HJHPOBT_KejgVQK0Axwi43CQH_mUTYAdV6Mf9BO989DJDHW392cVirLVmXQ_tRv2gpHV42q2n34)
 
 대시보드의 `프로젝트 만들기` 버튼을 누른다.
 
 
 
-![img](ITda 사용 설명서.assets/NqpQLIJ-vMkoOcLu8Tp_zdfhsSIhCVFQ18A9xMlSs41yZN2qZlTn3NK05Nh7_5foZCC8x6mFzmzFhgP6VsaYE-iyJfSQVtIkpavcPwVHzqzNmxg_Zk7fckmiQNQJqRsc7XIw7qBZ)
+![img](ITda_사용_설명서.assets/NqpQLIJ-vMkoOcLu8Tp_zdfhsSIhCVFQ18A9xMlSs41yZN2qZlTn3NK05Nh7_5foZCC8x6mFzmzFhgP6VsaYE-iyJfSQVtIkpavcPwVHzqzNmxg_Zk7fckmiQNQJqRsc7XIw7qBZ)
 
 프로젝트 이름을`itda`로 작성한다. (다른거여도 되긴 함)
 
 
 
-![img](ITda 사용 설명서.assets/DXRe3m69OgsiXQ1h_WQKKx0ZDCCWL82oHl8aUNFEEFJCaSPBT8U881PYUZgkmF8yuIpdK4HVJN_u_0R55gJXWMZj1ClGBsatMed1QKpGWSgZx0awIkZnnBuXala0Y9NXLwnoAzpI)
+![img](ITda_사용_설명서.assets/DXRe3m69OgsiXQ1h_WQKKx0ZDCCWL82oHl8aUNFEEFJCaSPBT8U881PYUZgkmF8yuIpdK4HVJN_u_0R55gJXWMZj1ClGBsatMed1QKpGWSgZx0awIkZnnBuXala0Y9NXLwnoAzpI)
 
 `API 및 서비스 사용 설정` 버튼을 누른다.
 
 
 
-![img](ITda 사용 설명서.assets/5N-NIt7zVi8YgqcdErURlha1RnMiDDeoFv6w0BDGXWoi0OyWrpJwy29BpLFnJuH_Mki5jjSoP-SVnxuTHFA-TA1_Dw_p_mmLI1ioSveGNTwqf79Yn0NqIg7vinsA_62MfyDLsc92)
+![img](ITda_사용_설명서.assets/5N-NIt7zVi8YgqcdErURlha1RnMiDDeoFv6w0BDGXWoi0OyWrpJwy29BpLFnJuH_Mki5jjSoP-SVnxuTHFA-TA1_Dw_p_mmLI1ioSveGNTwqf79Yn0NqIg7vinsA_62MfyDLsc92)
 
 위 그림에 보이는 `Cloud Text-to-Speech API`와 `Cloud Speech-to-Text API`를 모두 사용 할 것이다.
 
@@ -93,31 +93,31 @@ https://console.cloud.google.com/에 접속한다.
 
 
 
-![image-20210625230917640](ITda 사용 설명서.assets/image-20210625230917640.png)
+![image-20210625230917640](ITda_사용_설명서.assets/image-20210625230917640.png)
 
 `사용자 인증 정보 만들기` -> `서비스 계정`을 누른다.
 
 
 
-![image-20210625230958793](ITda 사용 설명서.assets/image-20210625230958793.png)
+![image-20210625230958793](ITda_사용_설명서.assets/image-20210625230958793.png)
 
 `서비스 계정 이름` 만 작성하고 `가입 완료 민 계속`을 누른다.
 
 
 
-![img](ITda 사용 설명서.assets/u3kIMtCQKVsXCwOyPWaz1pxKv53VNCrO7y13V2uSs1Hy1TK7i5ADJm6oB71h4O_QOhfJfp22xOt0iIiS43WXWDlyVvp2zxOhG2wo2HFTel33N9svw73QwjeWFdcrndQtnbVyLpGC)
+![img](ITda_사용_설명서.assets/u3kIMtCQKVsXCwOyPWaz1pxKv53VNCrO7y13V2uSs1Hy1TK7i5ADJm6oB71h4O_QOhfJfp22xOt0iIiS43WXWDlyVvp2zxOhG2wo2HFTel33N9svw73QwjeWFdcrndQtnbVyLpGC)
 
 역할에 `소유자`를 선택 후 `완료`를 누른다.
 
 
 
-![img](ITda 사용 설명서.assets/ZiSGittmNlyPDRSWmI6W35TZYvsHDhTVhwOBonFm1i9Sfgb8-6ZENPZYggaqs4KxBC663SazVA9yr7f2xy9p-QiBhzm4td232VH1a5RZaJ_UL2Q1EiA71QIn26zTJecuWRjjscTg)
+![img](ITda_사용_설명서.assets/ZiSGittmNlyPDRSWmI6W35TZYvsHDhTVhwOBonFm1i9Sfgb8-6ZENPZYggaqs4KxBC663SazVA9yr7f2xy9p-QiBhzm4td232VH1a5RZaJ_UL2Q1EiA71QIn26zTJecuWRjjscTg)
 
 `작업`의 `...`의 `키 만들기`를 누른다.
 
 
 
-![img](ITda 사용 설명서.assets/ejYjJji2wbQcMUseL8gpvRtlk0vIPKXnQBNvgw7L2gQiathZcCuhQyFkSnVFY2iL6oec6EBIqWff5Cvsnr4rGa1QwqMgCBdhAo3nVZzTqa-UUS7DiSs0-BK1bVTobO2zDUFm2mkg)
+![img](ITda_사용_설명서.assets/ejYjJji2wbQcMUseL8gpvRtlk0vIPKXnQBNvgw7L2gQiathZcCuhQyFkSnVFY2iL6oec6EBIqWff5Cvsnr4rGa1QwqMgCBdhAo3nVZzTqa-UUS7DiSs0-BK1bVTobO2zDUFm2mkg)
 
 `JSON`을 선택 후 `만들기`를 누르면 컴퓨터에 키가 다운받아진다.
 
@@ -129,7 +129,7 @@ https://console.cloud.google.com/에 접속한다.
 
 
 
-![image-20210625231538458](ITda 사용 설명서.assets/image-20210625231538458.png)
+![image-20210625231538458](ITda_사용_설명서.assets/image-20210625231538458.png)
 
 방금 받았던 키를 이 파일 안에 그대로 복사해준다.
 
@@ -161,39 +161,39 @@ https://console.cloud.google.com/에 접속한다.
 
 만약 LAN이 아니라면 아래의 설정을 따른다.
 
-![image-20210625223314267](ITda 사용 설명서.assets/image-20210625223314267.png)
+![image-20210625223314267](ITda_사용_설명서.assets/image-20210625223314267.png)
 
 `sudo raspi-config` 커멘드를 입력한다.
 
-![image-20210625223405775](ITda 사용 설명서.assets/image-20210625223405775.png)
+![image-20210625223405775](ITda_사용_설명서.assets/image-20210625223405775.png)
 
 `1. System Options` 선택 후 enter
 
-![image-20210625223445253](ITda 사용 설명서.assets/image-20210625223445253.png)
+![image-20210625223445253](ITda_사용_설명서.assets/image-20210625223445253.png)
 
 `S1 Wireless LAN` 선택 후 enter
 
-![image-20210625223529086](ITda 사용 설명서.assets/image-20210625223529086.png)
+![image-20210625223529086](ITda_사용_설명서.assets/image-20210625223529086.png)
 
 `KR Korea (South)` 선택 후 enter
 
 `k` 키를 누르면 빠르게 찾을 수 있다.
 
-![image-20210625223625525](ITda 사용 설명서.assets/image-20210625223625525.png)
+![image-20210625223625525](ITda_사용_설명서.assets/image-20210625223625525.png)
 
 enter를 누른다.
 
-![image-20210625223651858](ITda 사용 설명서.assets/image-20210625223651858.png)
+![image-20210625223651858](ITda_사용_설명서.assets/image-20210625223651858.png)
 
 접속 한 wifi의 SSID(wifi 이름)을 입력하고 enter를 누른다.
 
-![image-20210625223732577](ITda 사용 설명서.assets/image-20210625223732577.png)
+![image-20210625223732577](ITda_사용_설명서.assets/image-20210625223732577.png)
 
 해당 wifi의 비밀번호를 입력 후 enter를 누른다.
 
-![image-20210625223813378](ITda 사용 설명서.assets/image-20210625223813378.png)
+![image-20210625223813378](ITda_사용_설명서.assets/image-20210625223813378.png)
 
-![image-20210625223843176](ITda 사용 설명서.assets/image-20210625223843176.png)
+![image-20210625223843176](ITda_사용_설명서.assets/image-20210625223843176.png)
 
 `Finish`와 `예`를 눌러 재부팅한다.
 
@@ -201,11 +201,11 @@ enter를 누른다.
 
 ### ITda 사이트 접속
 
-![image-20210625225315230](ITda 사용 설명서.assets/image-20210625225315230.png)
+![image-20210625225315230](ITda_사용_설명서.assets/image-20210625225315230.png)
 
 로고 -> 인터넷 -> Chromium 브라우저 순서대로 클릭한다.
 
-![image-20210625225422837](ITda 사용 설명서.assets/image-20210625225422837.png)
+![image-20210625225422837](ITda_사용_설명서.assets/image-20210625225422837.png)
 
 위 처럼 검은 화면이 보이면 정상적으로 실행이 된 것이다.
 
@@ -217,13 +217,13 @@ enter를 누른다.
 
 ### Python 코드 실행
 
-![image-20210625225559869](ITda 사용 설명서.assets/image-20210625225559869.png)
+![image-20210625225559869](ITda_사용_설명서.assets/image-20210625225559869.png)
 
 콘솔창을 열고 `code`라고 친 후 enter를 누르면 vscode가 실행된다.
 
 이후 모든 창의 위치를 아래와 같도록 설정해둔다.
 
-![image-20210625232117554](ITda 사용 설명서.assets/image-20210625232117554.png)
+![image-20210625232117554](ITda_사용_설명서.assets/image-20210625232117554.png)
 
 - vscode는 맨 위에 위아래 폭이 가장 작게 설정
 - 터미널은 오른쪽 변이 화면의 가운데에 위치하게 설정
@@ -236,7 +236,7 @@ enter를 누른다.
 
 이제 파이썬 코드를 실행하는 명령어를 작성한다.
 
-![image-20210625232559369](ITda 사용 설명서.assets/image-20210625232559369.png)
+![image-20210625232559369](ITda_사용_설명서.assets/image-20210625232559369.png)
 
 ```shell
 cd s04p23a404/Edge/
@@ -245,7 +245,7 @@ python app.py
 
 마지막으로 다시 브라우저를 선택 후 `F11`을 누른다.
 
-![image-20210625232403503](ITda 사용 설명서.assets/image-20210625232403503.png)
+![image-20210625232403503](ITda_사용_설명서.assets/image-20210625232403503.png)
 
 
 
