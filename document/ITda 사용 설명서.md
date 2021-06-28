@@ -105,7 +105,7 @@ https://console.cloud.google.com/에 접속한다.
 
 
 
-![img](https://lh5.googleusercontent.com/u3kIMtCQKVsXCwOyPWaz1pxKv53VNCrO7y13V2uSs1Hy1TK7i5ADJm6oB71h4O_QOhfJfp22xOt0iIiS43WXWDlyVvp2zxOhG2wo2HFTel33N9svw73QwjeWFdcrndQtnbVyLpGC)
+![img](ITda 사용 설명서.assets/u3kIMtCQKVsXCwOyPWaz1pxKv53VNCrO7y13V2uSs1Hy1TK7i5ADJm6oB71h4O_QOhfJfp22xOt0iIiS43WXWDlyVvp2zxOhG2wo2HFTel33N9svw73QwjeWFdcrndQtnbVyLpGC)
 
 역할에 `소유자`를 선택 후 `완료`를 누른다.
 
