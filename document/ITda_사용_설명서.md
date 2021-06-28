@@ -38,14 +38,14 @@ LAN cable을 라즈베리파이에 연결한다.
 
 | 장비                   | 사진                                                         | 설명 |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 충전기                 | <img src="ITda 사용 설명서.assets/image-20210625113455669.png" alt="image-20210625113455669" style="zoom:33%;" /> |C-type 포트에 연결한다.|
-| Google USB accelerator | <img src="ITda 사용 설명서.assets/image-20210625113551910.png" alt="image-20210625113551910" style="zoom:33%;" /> |USB 포트에 연결한다.<br />TPU는 C-type 포트이다.|
-| micro HDMI cable       | <img src="ITda 사용 설명서.assets/image-20210625113611985.png" alt="image-20210625113611985" style="zoom:33%;" /> |TV의 HDMI 포트에 연결한다.|
-| 카메라, 마이크         | <img src="ITda 사용 설명서.assets/image-20210625113627541.png" alt="image-20210625113627541" style="zoom:33%;" /> |테스트에는 카메라와 마이크가 합쳐진 장비를 사용했고, USB 포트에 입력했다.|
-| 마우스, 키보드         | <img src="ITda 사용 설명서.assets/image-20210625113641001.png" alt="image-20210625113641001" style="zoom:33%;" /> |마우스, 키보드를 USB 포트에 연결한다.|
-| 초음파 센서            | <img src="ITda 사용 설명서.assets/image-20210625114748992.png" alt="image-20210625114748992" style="zoom:33%;" /><img src="ITda 사용 설명서.assets/pi_GPIO.png" alt="img" style="zoom: 67%;" /> |초음파센서를 그림에 보이는대로 연결한다.|
-| micro SD card          | <img src="ITda 사용 설명서.assets/image-20210625115122908.png" alt="image-20210625115122908" style="zoom:33%;" /> |라즈베리파이 뒷면에 micro SD카드를 장착한다.|
-| LAN (추가)             | <img src="ITda 사용 설명서.assets/image-20210625115353033.png" alt="image-20210625115353033" style="zoom:33%;" /> |만약 wifi가 아닌 LAN을 사용한다면, 그림에 보이는 포트를 이용한다.|
+| 충전기                 | <img src="ITda_사용_설명서.assets/image-20210625113455669.png" alt="image-20210625113455669" style="zoom:33%;" /> |C-type 포트에 연결한다.|
+| Google USB accelerator | <img src="ITda_사용_설명서.assets/image-20210625113551910.png" alt="image-20210625113551910" style="zoom:33%;" /> |USB 포트에 연결한다.<br />TPU는 C-type 포트이다.|
+| micro HDMI cable       | <img src="ITda_사용_설명서.assets/image-20210625113611985.png" alt="image-20210625113611985" style="zoom:33%;" /> |TV의 HDMI 포트에 연결한다.|
+| 카메라, 마이크         | <img src="ITda_사용_설명서.assets/image-20210625113627541.png" alt="image-20210625113627541" style="zoom:33%;" /> |테스트에는 카메라와 마이크가 합쳐진 장비를 사용했고, USB 포트에 입력했다.|
+| 마우스, 키보드         | <img src="ITda_사용_설명서.assets/image-20210625113641001.png" alt="image-20210625113641001" style="zoom:33%;" /> |마우스, 키보드를 USB 포트에 연결한다.|
+| 초음파 센서            | <img src="ITda_사용_설명서.assets/image-20210625114748992.png" alt="image-20210625114748992" style="zoom:33%;" /><img src="ITda_사용_설명서.assets/pi_GPIO.png" alt="img" style="zoom: 67%;" /> |초음파센서를 그림에 보이는대로 연결한다.|
+| micro SD card          | <img src="ITda_사용_설명서.assets/image-20210625115122908.png" alt="image-20210625115122908" style="zoom:33%;" /> |라즈베리파이 뒷면에 micro SD카드를 장착한다.|
+| LAN (추가)             | <img src="ITda_사용_설명서.assets/image-20210625115353033.png" alt="image-20210625115353033" style="zoom:33%;" /> |만약 wifi가 아닌 LAN을 사용한다면, 그림에 보이는 포트를 이용한다.|
 
 조립을 완료한 후 (혹은 충전 케이블을 재연결 하면) 라즈비안이 실행된다.
 
